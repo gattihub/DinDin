@@ -2,15 +2,17 @@
     /* box-sizing: border-box; */
     font-family: 'Ubuntu', sans-serif;
     margin: 0px;
+    
 }
 
 header {
+    
     background-color: #2E948A;
     display: flex;
     justify-content: space-between;
     padding: 10px 82px;
     box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.25);
-    align-items: center;
+    align-items: center;    
 
 }
 
@@ -108,4 +110,13 @@ footer {
     padding: 10px 82px;
     box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.25);
     align-items: center;
+}
+
+@media only screen and (max-width: 480px){
+    header{
+        float: left;
+    }
+    footer{
+        float: left;
+    }
 }
