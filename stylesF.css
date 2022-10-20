@@ -1,0 +1,479 @@
+* {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+    margin: 0;
+    
+    }
+
+header {
+    background-color: #2E948A;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1% 5%;
+    }
+
+header img, footer img {
+    width: 244px;
+    height: 77px;
+}
+
+header ul {
+    
+    display: flex;
+    font-weight: 700;
+    font-size: 1.2em;
+    padding-right: 5%;
+    
+}
+header ul li, footer ul li{
+    padding: 5%;
+    display: flex;
+    
+}
+header ul li a, footer ul li a {
+    text-decoration: none;
+    color: #F7F7F7;
+}
+
+header ul li a:hover, footer ul li a:hover {
+    color: #FF4081 ;
+    
+
+}
+
+.sec01 {
+    display: flex;
+    margin: 12% ;
+    justify-content: center;
+}
+
+h1 {
+    color: #FF4081;
+    font-size: 5em;
+    font-weight: 700;
+    margin-top: 0%;
+    margin-bottom: 3%;
+    
+}
+
+
+.bloco1 p{
+    
+    font-size: 1.7em;
+    font-weight: 400;
+    padding-left: 1%;
+    margin-top: 0%;
+    color: #555555;
+}
+.botao {
+    background-color: #ffff;
+    border-color: #FF4081;
+    border-style: solid;
+    color: #FF4081;
+    border-radius: 62px;
+    margin-left: 1%;
+    width: 268px;
+    height: 51px;
+    font-size: 27px;
+
+}
+
+.botao:hover {
+    background-color: #FF4081;
+    color:#F7F7F7;
+    cursor: pointer;
+}
+
+.sec02 {
+    display: flex;
+    background-color: #F7F7F7;
+    padding: 8%;
+    justify-content: space-between;
+}
+
+.sec02 article{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 35%;
+}
+
+.sub-img {
+    font-weight: 700;
+    font-size: 1.7em;
+    text-align: center;
+    color:#FF4081 ;
+}
+
+.sub-sub{
+    font-weight: 300;
+    font-size: 1em;
+    text-align: center;
+    color:#000000 ;
+    width: 80%;
+}
+
+.botao2 {
+    color: #FFFFFF;
+    background-color: #FF4081;
+    border-color: #FF4081;
+    border-style: solid;
+    border-radius: 62px;
+    margin-left: 1px;
+    width: 233px;
+    height: 51px;
+    font-size: 20px;
+    font-weight: 400;
+
+
+}
+
+.botao2:hover {
+    background-color: #F7F7F7;
+    color:#FF4081;
+    cursor: pointer;
+}
+
+.sec03 {
+   
+    padding: 8%;
+    
+    align-items: baseline;
+    
+}
+
+.sec03 h2{
+    font-size: 2.5em;
+    font-weight: 700;
+    text-align: left;
+    color: #009688;
+    padding-bottom: 5%;
+    margin: 0%;
+
+}
+
+.sec03 section {
+    display: flex;
+    margin: 2% 0px;
+    justify-content: space-between;
+}
+.sec03 section article {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.sec03 p{
+    font-size: 1.15em;
+    font-weight: 300;
+    text-align: left;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 55%;
+    padding: 2%;
+
+}
+
+.img-personas {
+    width: 104px;
+    height: 104px;
+    margin: 0;
+}
+
+.sec04 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 8% ;
+    background-color: #F7F7F7;
+}
+
+.sec04 h2{
+    font-size: 2.5em;
+    font-weight: 700;
+    text-align: left;
+    color: #009688;
+    padding-bottom: 5%;
+    margin: 0%;
+}
+
+.mais-cont {
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+
+
+.mais-cont-sec h4{
+    color: #009688;
+    font-size: 1.7em;
+    font-weight: 700;
+    margin-bottom: 0;
+    margin-top: 4%;
+    
+    
+    
+}
+
+.mais-cont-sec figure{
+    margin: 0%;
+    padding-right: 10%;
+}
+
+.bloco-cinza {
+    background-color: #C4C4C4;
+    border: #C4C4C4;
+    width: 100%;
+    padding-top: 50%;
+}
+
+.botao3 {
+    color: #FF4081;
+    background-color: #FFFFFF;
+    border-color: #FF4081;
+    border-style: solid;
+    border-radius: 62px;
+    margin-left: 1px;
+    width: 233px;
+    height: 51px;
+    font-size: 20px;
+    font-weight: 400;
+        
+}
+
+.botao3:hover {
+    background-color: #FF4081;
+    color:#F7F7F7;
+    cursor: pointer;
+}
+
+.sec04 a {
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #419488;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+footer ul {
+    font-weight: 400;
+    font-size: 1.4em;
+}
+
+
+.botao4 {
+    background-color: #419488;
+    width: 289px;
+    height: 51px;
+    border-radius: 62px;
+    border-color: #FFFFFF;
+    border-style: solid;
+    margin: 10px;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.botao4:hover {
+    background-color: #FF4081;
+    color:#F7F7F7;
+    cursor: pointer;
+    border-color: #FF4081;
+    
+}
+
+.contato-main h3 {
+    color: #FF4081;
+    font-weight: 700;
+    font-size: 3.5em;
+}
+
+.contato-main {
+    margin: 5% 0%;
+    display:flex;
+    justify-content: space-evenly;
+}
+
+.contato01 {
+    display: block;
+}
+
+input  {
+    border-radius: 7px;
+    border-style: solid;
+}
+
+.linha-form {
+    width: 100%;
+    margin-bottom: 5%;
+}
+
+.caixa-msg {
+    width: 100%;
+    height: 10em;
+    margin-bottom: 5%;
+    
+}
+
+textarea {
+    resize: none;
+    border-radius: 10px;
+    border-style: solid;
+    width: 100%;
+    margin-bottom: 5%;
+}
+
+
+
+#botao5 {
+    width: 108px;
+    height: 32px;
+    border-radius: 50px;
+    border-color: #FF4081;
+    background-color: #FF4081;
+    color: #FFFFFF;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+
+
+
+/*
+    Responsividade
+    Responsividade
+    Responsividade
+    Responsividade
+    Responsividade
+    Responsividade
+                    */
+
+
+@media (max-width: 840px) {
+ 
+    
+    header img {
+        width: 122px;
+        height: 38px;
+    }
+    
+    header ul {
+       font-size: 12px;
+        
+    }
+    header ul li {
+        padding: 5px;
+    }
+
+   
+    .sec01 img {
+        width: 125px;
+        height: 127px;
+        padding-top: 40px;
+    }
+    h1 {
+        font-size: 44px;
+        
+        }
+    
+    .bloco1 {
+        width: 250px;
+    }
+    
+    .bloco1 p{
+        font-size: 24px;
+    }
+
+    
+    
+   .sec02 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+   }
+
+   .sec02 article {
+    padding: 7px;
+   }
+
+   .sec03 {
+    display: block;
+    
+   }
+
+   .sec03 h2 {
+    text-align: center;
+    padding: 0;
+   }
+
+   .sec03 article {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin: 0 auto;
+   }
+
+   .sec03 p{
+    width: 50%;
+   }
+
+   .sec04 {
+    padding: 10%;
+   }
+
+   
+
+   .mais-cont {
+    display: flex;
+    flex-direction: column;
+   }
+   
+   footer img {
+    width: 122px;
+    height: 38px;
+}
+
+footer ul {
+    font-size: 15px;
+    padding: 0%;
+     
+ }
+ footer ul li {
+     padding: 5px;
+ }
+
+ .botao4 {
+    width: 90%;
+    font-size: 70%;
+ }
+
+ .contato-main {
+    flex-direction: column;
+    margin: 5%;
+ }
+
+ .linha-form {
+    width: 100%;
+ }
+
+ #caixa-msg {
+    width: 100%;
+ }
+
+}
