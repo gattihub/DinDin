@@ -50,7 +50,8 @@ margin-left: 15%;
 }
 
 #menu-header a:hover{
-    font-weight: lighter;
+    text-decoration: none;
+    color:#FF4081;
 }
 
  
@@ -181,7 +182,8 @@ flex-direction: column;
 }
 
 #menu-footer a:hover{
-    text-decoration: underline;
+    text-decoration: none;
+    color:#FF4081;
 }
 
 .footerbtns{
@@ -206,8 +208,8 @@ flex-direction: column;
 }
 
 .footer-button:hover{
-background-color: #F6F6F6;
-color: #2E948A;
+background-color: #FF4081;
+color: #F6F6F6;
 }
 
 #centralize{
