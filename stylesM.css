@@ -348,6 +348,47 @@ color: #F6F6F6;
         text-align: center;
         width: 32%;
     }
-    
+    @media (max-width: 840px) {
+        header img {
+            width: 122px;
+            height: 38px;
+        }
+        header {
+            padding: 0;
+            
+        }
+        #menu-header {
+            font-size: 0.7em;
 
+        }
+        .program {
+            display: flex;
+            flex-direction: column;
+            margin:3%
+        }
 
+        .pink-text {
+            font-size: 1.3em;
+        }
+        footer img {
+            width: 122px;
+            height: 38px;
+        }
+        .standard-text {
+            font-size: 0.7em;
+        }
+        .pink-white-button{
+            font-size: 1em;
+        }
+        footer {
+            font-size: 1em;
+            align-items: center;
+        }
+        .footer-button {
+            font-size: 1em;
+        }
+        .banner-img img {
+            width: 50%;
+                  }
+      
+    }

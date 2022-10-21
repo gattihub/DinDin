@@ -76,7 +76,7 @@ main{
 button {
     background: #419488;
     border-radius: 62px;
-    width: 233px;
+    width: 100%;
     height: 51px;
     color: #FFFFFF;
     border-color: #FFFFFF;
@@ -91,7 +91,7 @@ button :hover {
     font-weight: 700;
     font-size: 35px;
     line-height: 40px;
-
+    margin: 3% 0%;
     color: #FF4081;
 }
 
@@ -130,6 +130,7 @@ footer {
     }
     header ul li {
         padding: 5px;
+        margin: 0;
    }
 
    h1 {
@@ -144,16 +145,50 @@ footer {
     }
     
     footer ul {
-        font-size: 15px;
+        font-size: 1em;
         padding: 0%;
          
      }
      footer ul li {
-         padding: 5px;
+         padding: 5%;
+         margin: 0;
+         font-size: 0.7em;
      }
 
      .cursos{
         flex-direction: column;
+     }
+     .cursos img {
+        width: 100%;
+     }
+     #intro_curso {
+        padding: 5%;
+        display: flex;
+        flex-direction: column;  
+     }
+     #title p {
+        font-size: 1em;
+        
+     }
+
+     #intro_curso img {
+        width:100%;
+        margin:4%;
+     }
+
+     #title {
+        font-size: 2.5em;
+     }
+
+     .cursos2 {
+        padding: 5%;
+        display: flex;
+        flex-direction: column;
+     }
+
+     .cursos2 video {
+        width: 100%;
+        height: 50%;
      }
 
 }
